@@ -1,0 +1,82 @@
+.logo {
+     width: 60px;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+.card-group{
+    width: 10px;
+}
+
+/* BERITA */
+.row .col{
+    position: relative;
+}
+
+.row .col .berita1{
+    width: 428px;
+}
+
+.row .col .text{
+	position: absolute;
+	left: 80px;
+     right: 100px;
+	top: 40px;
+	color: white;
+}
+.row .col .text p{
+	font-size: 16px;
+     text-align: center;    
+}
+
+.row .col .text h1{
+	font-size: 25px; 
+     text-align: center;   
+}
+
+.row .col .text .button1{
+     text-align: center;   
+}
+
+/* End BERITA */
+
+
+/* tombol up */
+
+html{
+     scroll-behavior: smooth;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+}
+
+.gotobtn{
+     position: fixed;
+     width: 50px;
+     height: 50px;
+     background:#0094b99d ;
+     bottom: 40px;
+     right: 50px;
+     
+     text-decoration: none;
+     text-align: center;
+     line-height: 50px;
+     color: rgb(255, 255, 255);
+     font-size: 30px;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+.card-title{
+    text-align: center;
+    font-size: 70px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+

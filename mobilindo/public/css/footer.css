@@ -1,0 +1,55 @@
+footer {
+	font-family: SuzukiPRO, sans-serif;
+	background: #1b191a;
+	color: #fff
+}
+
+footer .footer-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 30px
+}
+
+footer .footer-nav .nav-section {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
+}
+
+footer .footer-nav h3 {
+	color: #6e6e6e;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+footer .footer-nav ul {
+	list-style: none;
+	padding-left: 0
+}
+
+footer .footer-nav ul a {
+	color: #6e6e6e;
+	font-size: 13px;
+	text-decoration: none
+}
+
+footer .footer-nav ul a:hover {
+	color: #fff
+}
+
+footer .copyright {
+	border-top: 1px solid #6e6e6e;
+	color: #6e6e6e;
+	font-size: 13px;
+	padding: 20px 0
+}
+
+.fs-24{
+	font-size: 40px;
+}
